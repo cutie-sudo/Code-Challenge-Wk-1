@@ -7,7 +7,7 @@ It shows how students grades are generated,used to generate the speed,calculatio
 *You use git clone to be able to download the documents in the GitHub
 
 ## Live server
-* You can view the web live on [Code Challenge]()
+* You can view the web live on [Code Challenge](https://github.com/cutie-sudo/Code-Challenge-Wk-1.git)
 
 ## Known Bugs
 The application works perfectly well, no bugs.
@@ -16,10 +16,12 @@ The application works perfectly well, no bugs.
  Java Script
 
 ## Support and contact details
-email :: ngulifaith1@gmail.com
+For any other support or inquires kindly reach out via:
++254 746263984 or email mee @ngulifaith1@gmail.com
+
 
 ### License
-*LIcenced under the [MT-licence]()
+*Licenced under the [MIT-licence]
 
 Copyright (c) 2024 **Faith Nguli**
 

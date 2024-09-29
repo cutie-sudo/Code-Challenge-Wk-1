@@ -1,3 +1,4 @@
+// Calculation of payee
 function calculatePayee(taxableIncome) {
     if (taxableIncome <= 24000) return 0;
     if (taxableIncome <= 32333) return (taxableIncome -24000) * 0.1;
@@ -5,6 +6,8 @@ function calculatePayee(taxableIncome) {
     if (taxableIncome <= 48333) return 2083 + (taxableIncome - 40333) *0.2
     return 3683 + (taxableIncome - 48333) * 0.25;
 }
+
+//Calculation of Nhif
 
 function calculateNHIF(grossSalary) {
     if (grossSalary <= 5999) return 150;
@@ -18,13 +21,13 @@ function calculateNHIF(grossSalary) {
     if (grossSalary <= 39999) return 950;
     return 1000;
 }
-
+//Calculation of NSSF
 function calculateNSSF(pensionablePay) {
     const nssfRate = 0.06;
     const maxContribution = 1080;
     return Math.min(pensionablePay * nssfRate, maxContribution);
 }
-
+//Calculation of Net Salary
 function calculateNetSalary(basicSalary, benefits) {
     const grossSalary = basicSalary + benefits;
     const nssf = calculateNSSF(basicSalary);
@@ -44,6 +47,7 @@ return {
     netSalary
   };
 }
+//Users input
 
 document.getElementById('salaryForm').addEventListener('submit',
 function(e) {
