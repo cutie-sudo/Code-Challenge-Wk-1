@@ -7,7 +7,7 @@ It shows how students grades are generated,used to generate the speed,calculatio
 *You use git clone to be able to download the documents in the GitHub
 
 ## Live server
-* You can view the web live on [Code Challenge](https://github.com/cutie-sudo/Code-Challenge-Wk-1.git)
+* It will be updated soon
 
 ## Known Bugs
 The application works perfectly well, no bugs.
